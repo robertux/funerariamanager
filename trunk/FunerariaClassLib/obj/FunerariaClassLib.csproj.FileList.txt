@@ -1,0 +1,6 @@
+bin\Debug\FunerariaClassLib.dll
+bin\Debug\FunerariaClassLib.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\FunerariaClassLib.dll
+obj\Debug\FunerariaClassLib.pdb
+bin\Debug\CrypterClassLib.pdb

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="FunerariaClassLib.DataLayer.AccesoDatos">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <FileName>AccesoaDatos.cs</FileName>
+      <HashCode>AAAAABoCRIQEAgBAEgKAFgIEBDAgAtAkSCAGAwCnERo=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FunerariaClassLib.BusinessLayer.Admin" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Admin.cs</FileName>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FunerariaClassLib.BusinessLayer.CatalogoClientes" Collapsed="true">
+    <Position X="6" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Catalogos.cs</FileName>
+      <HashCode>AAAAAAAAQAAAABAAAAAAAAAAAAAAAAAAACAAAAAEAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FunerariaClassLib.BusinessLayer.CatalogoServicios" Collapsed="true">
+    <Position X="7.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Catalogos.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABCAAAAAEAAAAAAAAABA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FunerariaClassLib.BusinessLayer.CatalogoPlanesPago" Collapsed="true">
+    <Position X="6" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Catalogos.cs</FileName>
+      <HashCode>IAAAAAAAAQAAAQAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FunerariaClassLib.BusinessLayer.CatalogoCuotas" Collapsed="true">
+    <Position X="7.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Catalogos.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAEAAABgAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FunerariaClassLib.BusinessLayer.CatalogoAdmin" Collapsed="true">
+    <Position X="4.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Catalogos.cs</FileName>
+      <HashCode>AAAAABAAAAQAAAAAAAAAAAAAAAAgAAAgAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FunerariaClassLib.BusinessLayer.CatalogoGastos" Collapsed="true">
+    <Position X="4.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Catalogos.cs</FileName>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAAAAAAADAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FunerariaClassLib.BusinessLayer.Cliente" Collapsed="true">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Cliente.cs</FileName>
+      <HashCode>AAABCAAAAQQAIAAEAWAAAAFAAAEAAAABAAAAAgAAAAo=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FunerariaClassLib.BusinessLayer.Cuota" Collapsed="true">
+    <Position X="4" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Cuota.cs</FileName>
+      <HashCode>AQABAAkAAQAIAAABCAAAAQgAAAEAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FunerariaClassLib.BusinessLayer.Gasto" Collapsed="true">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Gasto.cs</FileName>
+      <HashCode>AABBBAAAAQAAgAEAAIgAAAAIAAAAAAAAAAAAAAAAQAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FunerariaClassLib.BusinessLayer.PlanPago" Collapsed="true">
+    <Position X="8.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>PlanPago.cs</FileName>
+      <HashCode>AAABAQAAAQAAAAAACICAAAAAgAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FunerariaClassLib.BusinessLayer.Servicio" Collapsed="true">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Servicio.cs</FileName>
+      <HashCode>AAABAAAAAQAAAACAAAEAgAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="FunerariaClassLib.BusinessLayer.EstadoCuota" Collapsed="true">
+    <Position X="6.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Cuota.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

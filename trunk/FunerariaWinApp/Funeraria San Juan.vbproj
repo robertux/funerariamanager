@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6D134C63-8E21-46EC-877F-9BD9CF13492A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Funeraria_San_Juan.My.MyApplication</StartupObject>
+    <RootNamespace>Funeraria_San_Juan</RootNamespace>
+    <AssemblyName>Funeraria San Juan</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Funeraria San Juan.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Funeraria San Juan.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrypterClassLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Crypter\CrypterClassLib\bin\Debug\CrypterClassLib.dll</HintPath>
+    </Reference>
+    <Reference Include="FunerariaClassLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\FunerariaClassLib\bin\Debug\FunerariaClassLib.dll</HintPath>
+    </Reference>
+    <Reference Include="FunerariaControlLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\FunerariaControlLib\bin\Debug\FunerariaControlLib.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=1.0.7.30072, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\FunerariaClassLib\bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="RaizControls, Version=1.0.2366.26742, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\VB.Net\ParserTest\RaizControls\bin\Release\RaizControls.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Administradores.Designer.vb">
+      <DependentUpon>Administradores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Administradores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agregar Gastos Fijos.Designer.vb">
+      <DependentUpon>Agregar Gastos Fijos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Agregar Gastos Fijos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agregar Gastos Variables.Designer.vb">
+      <DependentUpon>Agregar Gastos Variables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Agregar Gastos Variables.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes.Designer.vb">
+      <DependentUpon>Clientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gastos Fijos.Designer.vb">
+      <DependentUpon>Gastos Fijos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gastos Fijos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gastos Variables.Designer.vb">
+      <DependentUpon>Gastos Variables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gastos Variables.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modificar Cliente.Designer.vb">
+      <DependentUpon>Modificar Cliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modificar Cliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nuevo Cliente.Designer.vb">
+      <DependentUpon>Nuevo Cliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nuevo Cliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nuevoadministrador.Designer.vb">
+      <DependentUpon>Nuevoadministrador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nuevoadministrador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.vb">
+      <DependentUpon>Principal.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Administradores.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Administradores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agregar Gastos Fijos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Agregar Gastos Fijos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agregar Gastos Variables.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Agregar Gastos Variables.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Clientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gastos Fijos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Gastos Fijos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gastos Variables.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Gastos Variables.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modificar Cliente.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Modificar Cliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nuevo Cliente.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Nuevo Cliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nuevoadministrador.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Nuevoadministrador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Principal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BaseApplicationManifest Include="My Project\app.manifest" />
+    <None Include="app.config" />
+    <None Include="Resources\funeraria.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
