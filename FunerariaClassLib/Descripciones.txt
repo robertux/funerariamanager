@@ -1,0 +1,35 @@
+codigos de los clientes:
+
+-primer apellido
+-segundo apellido
+-correlativo
+
+consultas necesarias:
+
+clientes:
+-(ya)Buscar clientes por código
+-(ya)Buscar clientes por estado
+-(ya)Buscar # de registros con los primeros 2 caracteres del codigo del cliente
+-(ya)Agregar cliente pidiendo sus datos (automaticamente el estado queda como a tiempo)
+ Automaticamente se tiene que crear un nuevo plan de pago y asociarlo con el cliente
+-(ya)Modificar/ Eliminar cliente pidiendo su codigo
+-(ya)Devolver todos los tipos de servicio que existen
+
+administradores:
+-(ya)Buscar si existe un registro en Administradores que coincida con @id y @clave
+-(ya)Agregar administradores pidiendo sus datos
+-(ya)Modificar su id o clave pidiendo su codigo
+
+planes de pago/cuotas:
+-(ya)Agregar cuotas pidiendo el codigo del plan de pago
+-(ya)Modificar/Eliminar cuotas pidiendo su codigo
+-(ya)Cambiar a verdadero el campo cancelada (saldar una cuenta) pidiendo su codigo
+-(ya)Devolver una lista de cuotas pidiendo el codigo de plan de pago
+-(ya)Devolver un codigo de plan de pago pidiendo el codigo de cliente
+
+gastos:
+-(ya)Devolver una lista de gastos pidiendo el tipo
+-(ya)Devolver una lista de gastos pidiendo el año y mes
+
+Estado
+- 0=moroso, 1=atiempo y 2=inactivo

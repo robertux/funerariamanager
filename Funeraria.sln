@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+# SharpDevelop 2.1.0.2201
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Funeraria San Juan", "FunerariaWinApp\Funeraria San Juan.vbproj", "{6D134C63-8E21-46EC-877F-9BD9CF13492A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "FunerariaSetup", "FunerariaSetup\FunerariaSetup.vdproj", "{7BB992FE-3C79-4952-A6EF-3ED375D2F533}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D134C63-8E21-46EC-877F-9BD9CF13492A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D134C63-8E21-46EC-877F-9BD9CF13492A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D134C63-8E21-46EC-877F-9BD9CF13492A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D134C63-8E21-46EC-877F-9BD9CF13492A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BB992FE-3C79-4952-A6EF-3ED375D2F533}.Debug|Any CPU.ActiveCfg = Debug
+		{7BB992FE-3C79-4952-A6EF-3ED375D2F533}.Release|Any CPU.ActiveCfg = Release
+		{7BB992FE-3C79-4952-A6EF-3ED375D2F533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BB992FE-3C79-4952-A6EF-3ED375D2F533}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

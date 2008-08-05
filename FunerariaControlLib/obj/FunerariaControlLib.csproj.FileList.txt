@@ -1,0 +1,10 @@
+bin\Debug\FunerariaControlLib.dll
+bin\Debug\FunerariaControlLib.pdb
+bin\Debug\FunerariaClassLib.dll
+bin\Debug\MySql.Data.dll
+bin\Debug\FunerariaClassLib.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\FunerariaControlLib.dll
+obj\Debug\FunerariaControlLib.pdb
+bin\Debug\CrypterClassLib.dll
+bin\Debug\CrypterClassLib.pdb

@@ -1,0 +1,41 @@
+bin\Release\Funeraria San Juan.exe
+bin\Release\Funeraria San Juan.pdb
+bin\Release\Funeraria San Juan.xml
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Funeraria_San_Juan.Clientes.resources
+obj\Release\Funeraria_San_Juan.Gastos_Fijos.resources
+obj\Release\Funeraria_San_Juan.Gastos_Variables.resources
+obj\Release\Funeraria_San_Juan.Nuevocliente.resources
+obj\Release\Funeraria_San_Juan.Principal.resources
+obj\Release\Funeraria_San_Juan.Resources.resources
+obj\Release\Funeraria San Juan.vbproj.GenerateResource.Cache
+obj\Release\Funeraria San Juan.exe
+obj\Release\Funeraria San Juan.xml
+obj\Release\Funeraria San Juan.pdb
+bin\Debug\Funeraria San Juan.exe
+bin\Debug\Funeraria San Juan.pdb
+bin\Debug\Funeraria San Juan.xml
+bin\Debug\FunerariaClassLib.dll
+bin\Debug\FunerariaControlLib.dll
+bin\Debug\MySql.Data.dll
+bin\Debug\FunerariaControlLib.pdb
+bin\Debug\FunerariaClassLib.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Funeraria_San_Juan.Administradores.resources
+obj\Debug\Funeraria_San_Juan.Clientes.resources
+obj\Debug\Funeraria_San_Juan.Gastos_Fijos.resources
+obj\Debug\Funeraria_San_Juan.Gastos_Variables.resources
+obj\Debug\Funeraria_San_Juan.Login.resources
+obj\Debug\Funeraria_San_Juan.Nuevoadministrador.resources
+obj\Debug\Funeraria_San_Juan.Principal.resources
+obj\Debug\Funeraria_San_Juan.Resources.resources
+obj\Debug\Funeraria San Juan.vbproj.GenerateResource.Cache
+obj\Debug\Funeraria San Juan.exe
+obj\Debug\Funeraria San Juan.xml
+obj\Debug\Funeraria San Juan.pdb
+bin\Debug\Funeraria San Juan.exe.config
+obj\Debug\Funeraria_San_Juan.Agregar_Gastos_Fijos.resources
+obj\Debug\Funeraria_San_Juan.Agregar_Gastos_Variables.resources
+obj\Debug\Funeraria_San_Juan.Modificar_Cliente.resources
+obj\Debug\Funeraria_San_Juan.Nuevo_Cliente.resources
+bin\Debug\CrypterClassLib.pdb
