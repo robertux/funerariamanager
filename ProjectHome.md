@@ -1,0 +1,1 @@
+A Clients / Payments manager desktop application made for the Funeraria San Jose. It was developed using CSharp.Net 2.0 and using a database in Mysql5.
